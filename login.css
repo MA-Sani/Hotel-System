@@ -1,0 +1,109 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    background-image: url('../newimages/login.jpg');
+    background-size:cover;
+
+}
+.main{
+    border: 1px solid rgba(0, 0, 0, 0.815);
+    background-color: rgba(0, 0, 0, 0.082);
+    width: 340px;
+    height: 450px;
+    /* margin-top: 80px; */
+    margin-left: 100px;
+    position: relative;
+}
+.main h4{
+    color: white;
+    text-align: center;
+}
+#head h1{
+    color: white;
+    /* margin: 6px; */
+    padding: 6px;
+    /* line-height: 2; */
+    margin-left: 100px;
+    padding: 6px;
+    font-size: 30px;
+
+
+}
+#head h1::first-letter{
+    color: red;
+    font-size: 40px;
+}
+
+.user
+{
+    border: 0px solid;
+    width: 150px;
+    height: 28px;
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+input{
+    border: 0px solid;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 4px;
+    margin-left: 22px;
+    background-color: rgba(255, 255, 255, 0.767);
+    /* border: 1px solid; */
+    color: rgb(0, 0, 0);
+}
+.login{
+    /* border-radius: 8px; */
+    border: 1px solid black;
+    /* margin-top:30px; */
+    background-color:rgba(255, 255, 255, 0.767);
+    font-weight: bold;
+    margin-top: 42px;
+    /* width: 4%; */
+}
+.login:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.616);
+
+}
+#sign{
+    border: 0px solid;
+    width: 300px;
+    height: 30px;
+    color: black;
+    margin-top: 8px;
+    border-radius: 1px black;
+    border-radius: 4px;
+    margin-left: 22px;
+    background-color: rgba(255, 255, 255, 0.767);
+    /* border: 1px solid; */
+}
+#sign:hover{
+    color: rgb(255, 251, 251);
+    background-color: rgba(0, 0, 0, 0.616);
+
+}
+#sign a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(25, 4, 218, 0.925);
+
+}
+::placeholder{
+    color:gray;
+    font-size: 20px;
+    
+}
+form h1{
+    text-align: center;
+    color: white;
+    margin: 6px;
+    padding: 6px;
+
+}
